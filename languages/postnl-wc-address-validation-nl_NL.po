@@ -1,0 +1,261 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PostNL Address Validation for WooCommerce\n"
+"POT-Creation-Date: 2024-05-30 14:31+0200\n"
+"PO-Revision-Date: 2024-05-30 14:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: postnl-wc-address-validation.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:69
+msgid "No results found"
+msgstr "Geen resultaten gevonden"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:70
+msgid ""
+"We did our best to validate the address for you. Please check your input and "
+"try again."
+msgstr ""
+"We hebben ons best gedaan om het adres voor u te valideren. Controleer uw "
+"invoer en probeer het opnieuw."
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:71
+msgid "Edit Address"
+msgstr "Adres Wijzigen"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:72
+msgid "The address will not be revalidated"
+msgstr "Het adres wordt niet opnieuw gevalideerd"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:107
+msgctxt "Housenumber"
+msgid "Number"
+msgstr "Huisnummer"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:122
+msgctxt "housenummer suffix"
+msgid "Suffix"
+msgstr "Toevoeging"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:134
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:654
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:669
+msgid "Street name"
+msgstr "Straatnaam"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:146
+msgctxt "address_line"
+msgid "Rest of the address"
+msgstr "Rest van het adres"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:147
+msgid ""
+"Enter what applies, for example street name, house number, building, floor, "
+"door code, region"
+msgstr ""
+"Voer in wat van toepassing is, bijvoorbeeld straatnaam, huisnummer, gebouw, "
+"verdieping, deurcode, regio"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:156
+msgid "Select adres"
+msgstr "Selecteer adres"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:160
+msgid "No addresses available"
+msgstr "Geen adressen beschikbaar"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:658
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:673
+msgid "Number"
+msgstr "Nummer"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:662
+msgid "Suffix"
+msgstr "Toevoeging"
+
+#: include/classes/PostNL/AddressValidation/CheckoutFields.php:677
+msgctxt "full string"
+msgid "Suffix"
+msgstr "Toevoeging"
+
+#: include/classes/PostNL/AddressValidation/CompatibilityCheck.php:109
+#, php-format
+msgid "%1$s requires PHP %2$d or higher (%2$d or higher recommended)."
+msgstr "%1$s vereist PHP %2$d of hoger (%2$d of hoger aanbevolen)."
+
+#: include/classes/PostNL/AddressValidation/CompatibilityCheck.php:118
+msgid ""
+"You are using the \"PostNL Address Validation for WooCommerce\" plugin in "
+"combination with the \"PostNL for WooCommerce\" plugin. You need to disable "
+"the option \"Use PostNL address fields\" in the \"PostNL for WooCommerce\" "
+"plugin."
+msgstr ""
+"U maakt gebruik van  de plug-in \"PostNL Address Validation for WooCommerce"
+"\"  in combinatie met de plug-in \"PostNL for WooCommerce\".  U moet de "
+"optie \"PostNL adresvelden gebruiken’’ uitschakelen in de plug in \"PostNL "
+"voor WooCommerce\"."
+
+#: include/classes/PostNL/AddressValidation/CompatibilityCheck.php:142
+#, php-format
+msgid "%1$s requires Wordpress %2$d or higher (%2$d or higher recommended)."
+msgstr "%1$s vereist Wordpress %2$d of hoger (%2$d of hoger aanbevolen)."
+
+#: include/classes/PostNL/AddressValidation/CompatibilityCheck.php:152
+#, php-format
+msgid "%s requires %sWooCommerce%s to be installed & activated!"
+msgstr "%s vereist %sWooCommerce%s te installeren en te activeren!"
+
+#: include/classes/PostNL/AddressValidation/CompatibilityCheck.php:166
+#, php-format
+msgid "%s API key needs to be activated - %s settings %s"
+msgstr "%s API-sleutel moet worden geactiveerd - %s instellingen %s"
+
+#: include/classes/PostNL/AddressValidation/DeprecationMessage.php:31
+msgid ""
+"Warning: The plugin \"PostNL Address Validation for WooCommerce\" has been "
+"deprecated. There is no longer support for this plugin and from July 1st "
+"2024 this plugin will not be available anymore. Please refer to the \"PostNL "
+"for WooCommerce\" plug-in. With this plug-in it is also possible to validate "
+"Dutch address data while it’s entered."
+msgstr ""
+"Waarschuwing: De plugin \"PostNL Adresvalidatie voor WooCommerce\" is "
+"deprecated. Er is geen ondersteuning meer voor deze plugin en vanaf 1 juli "
+"2024 zal deze plugin niet meer beschikbaar zijn. We verwijzen je door naar "
+"de \"PostNL for WooCommerce\" plug-in. Met deze plugin is het ook mogelijk "
+"om Nederlandse adresgegevens te valideren tijdens het invoeren."
+
+#: include/classes/PostNL/AddressValidation/Settings.php:124
+msgid "Active"
+msgstr "Actief"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:124
+msgid "Inactive"
+msgstr "Inactief"
+
+#. translators: %1$s: status label
+#: include/classes/PostNL/AddressValidation/Settings.php:129
+#, php-format
+msgid "API key is: %1$s"
+msgstr "API-sleutel is: %1$s"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:136
+#, php-format
+msgid "Go to request Address check API %s "
+msgstr "Ga naar adres aanvragen API %s "
+
+#: include/classes/PostNL/AddressValidation/Settings.php:140
+msgid "Postcode Checker"
+msgstr "Postcode Checker"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:145
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:152
+msgid "API Key"
+msgstr "API sleutel"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:160
+msgid "National / International"
+msgstr "Nationaal / Internationaal"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:161
+msgid "Use National or International API"
+msgstr "Gebruik nationale of internationale API"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:164
+msgid "National ( The Netherlands )"
+msgstr "Nationaal ( Nederland )"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:165
+msgid "International"
+msgstr "Internationaal"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:209
+#, php-format
+msgid "There has been an error: %s"
+msgstr "Er is een fout opgetreden: %s"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:227
+msgid "Invalid ApiKey for given resource"
+msgstr "Ongeldige ApiKey voor deze service"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:228
+msgid "Invalid ApiKey"
+msgstr "Ongeldige ApiKey"
+
+#: include/classes/PostNL/AddressValidation/Settings.php:262
+msgid "Settings"
+msgstr "Instellingen"
+
+#. Plugin Name of the plugin/theme
+msgid "PostNL Address Validation for WooCommerce"
+msgstr "PostNL adresvalidatie voor WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.postnl.nl"
+msgstr "https://postnl.nl"
+
+#. Description of the plugin/theme
+msgid ""
+"With the PostNL Address Validation for WooCommerce plug-in you can easily "
+"find a Dutch or International address in the check out. This way you always "
+"ship to the right address."
+msgstr ""
+"Met de PostNL Address Validation for WooCommerce plug-in vind je eenvoudig "
+"een Nederlands of Internationaal adres in de check-out. Zo verzend je altijd "
+"naar het juiste adres."
+
+#. Author of the plugin/theme
+msgid "PostNL"
+msgstr "PostNL"
+
+#. Author URI of the plugin/theme
+msgid "https://postnl.nl"
+msgstr "https://postnl.nl"
+
+#, php-format
+#~ msgid "Get your API key at %s "
+#~ msgstr "Haal uw API-sleutel op %s "
+
+#~ msgid "PostNL Woocommerce Postcodechecker"
+#~ msgstr "PostNL Woocommerce Postcodechecker"
+
+#~ msgid "Lettow Studios"
+#~ msgstr "Lettow Studio's"
+
+#~ msgid "https://www.lettow.nl"
+#~ msgstr "https://www.lettow.nl"
+
+#~ msgctxt "housnummer suffix"
+#~ msgid "Suffix"
+#~ msgstr "Toevoeging"
+
+#~ msgid "Validate postcodes"
+#~ msgstr "Postcodes valideren"
+
+#~ msgid "Make selection"
+#~ msgstr "Selectie maken"
+
+#~ msgid "Enable in my account"
+#~ msgstr "Inschakelen in mijn account"
+
+#~ msgctxt "abbreviated string"
+#~ msgid "Suffix"
+#~ msgstr "Achtervoegsel"

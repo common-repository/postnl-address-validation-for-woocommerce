@@ -1,0 +1,17 @@
+.DS_Store
+/.idea/
+phpcs.xml
+phpunit.xml
+Thumbs.db
+wp-cli.local.yml
+node_modules/
+*.sql
+*.tar.gz
+*.zip
+*.css.map
+/assets/js/
+/assets/css/
+/package-lock.json
+/vendor/
+/composer.lock
+/.idea

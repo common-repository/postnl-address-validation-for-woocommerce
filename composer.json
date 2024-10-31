@@ -1,0 +1,20 @@
+{
+  "name": "lettow/postnl-wc-postcodechecker",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "",
+  "authors": [
+    {
+      "name": "Lettow Studios",
+      "email": "kevin@lettow.nl"
+    }
+  ],
+  "require": {
+
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.7.0",
+    "wp-coding-standards/wpcs": "2.3.0"
+  }
+}
+

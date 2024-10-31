@@ -1,0 +1,81 @@
+body.woocommerce-edit-address form.loading-addresses,
+form[name="checkout"].loading-addresses {
+	#billing_select_address_field,
+	#shipping_select_address_field {
+		.woocommerce-input-wrapper {
+			position: relative;
+
+			&:before {
+				position: absolute;
+				content: ' ';
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				background-image: url("./../images/wpspin.gif");
+				background-repeat: no-repeat;
+				background-position: center center;
+				z-index: 2;
+			}
+		}
+	}
+}
+
+
+
+
+/* Error message */
+.postnl_error_message{
+	--postnl-wc-message-color: 46, 162, 204;
+	--postnl-wc-message-icon: '';
+
+	margin-top: 15px;
+	padding: 0.9rem 1.1rem;
+	padding-left: 2rem;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(var(--postnl-wc-message-color),1);
+
+	background-color: rgba(var(--postnl-wc-message-color),0.2);
+
+	font-size: 0.675rem;
+	position: relative;
+
+	&:before{
+		position: absolute;
+		font-family: 'WooCommerce' !important;
+		content: var(--postnl-wc-message-icon);
+		color: rgba(var(--postnl-wc-message-color),1);
+		font-size: 1rem;
+		left: 0.5rem;
+		top: 0.75rem;
+	}
+
+	&.success{
+		--postnl-wc-message-color: 122,208,58;
+		--postnl-wc-message-icon: '\e015';
+	}
+	&.error{
+		--postnl-wc-message-color: 255,0,0;
+		--postnl-wc-message-icon: '\e013';
+
+	}
+	&.info{
+		--postnl-wc-message-color: 46, 162, 204;
+		--postnl-wc-message-icon: '\e016';
+	}
+
+}
+
+/* Edit address */
+.postnl-address-edit{
+	display: inline-block;
+	margin-top: 1rem;
+	text-decoration: none;
+	&:after{
+		font-family: 'WooCommerce' !important;
+		content: '\e603';
+		padding-left: 1em;
+	}
+}
